@@ -18,7 +18,7 @@ export default defineConfig({
 			],
 			description: 'Appunti e materiale per la classe seconda',
 			social: [
-				{ icon: 'github', label: 'GitHub', href: 'https://github.com/DanieleRiva' }
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/ProfPrivi' }
 			],
 
 			plugins: [
