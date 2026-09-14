@@ -28,7 +28,7 @@ L'unità di misura della carica elettrica è il Coulomb (C) . Per comprenderne l
   Carica elementare (e) = 1.60 &times; 10&minus;19 C
 </div>
 
-Questo significa che per ottenere una carica totale di 1 C, sono necessari circa 6.25 &times; 10&sup1;&sup8; elettroni . 
+Questo significa che per ottenere una carica totale di 1 C, sono necessari circa 6,25 × 10¹⁸ elettroni . 
 **Esempio pratico**: La carica può essere paragonata all'acqua all'interno di un serbatoio, dove la quantità totale di acqua rappresenta esattamente la carica elettrica accumulata .
 
 ### 1.2 La Tensione (o Differenza di Potenziale): L'Energia che Spinge
