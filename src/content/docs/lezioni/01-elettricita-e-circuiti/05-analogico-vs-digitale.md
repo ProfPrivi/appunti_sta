@@ -42,6 +42,16 @@ Poiché il mondo fisico è analogico e il "cervello" dei computer è digitale, �
 
 **L'esempio del Modem**: Un esempio familiare è il modem casalingo, che ha proprio il compito di convertire i segnali digitali del computer in segnali analogici per farli viaggiare sulla linea telefonica, per poi riconvertirli in digitale quando arrivano al computer di destinazione.
 
+### Il Teorema di Nyquist-Shannon
+
+Perché la conversione ADC sia precisa, il campionamento non può essere casuale. Il Teorema di Nyquist stabilisce che, per ricostruire fedelmente un segnale analogico senza distorsioni (aliasing), la frequenza di campionamento (f<sub>s</sub>) deve essere almeno il doppio della frequenza massima (f<sub>max</sub>) contenuta nel segnale originale:
+
+<div align="center" style="font-family: 'Courier New', Courier, monospace; font-size: 1.4em; font-weight: bold; color: #2c3e50; margin: 20px 0; padding: 10px; background-color: #f8f9fa; border-radius: 5px; border: 1px solid #dee2e6;">
+  f<sub>s</sub> &ge; 2f<sub>max</sub>
+</div>
+
+> **Esempio Pratico:** L’orecchio umano percepisce suoni fino a circa 20.000 Hz. Per registrare fedelmente un brano, un CD Audio applica il teorema campionando la musica a 44.100 Hz (più del doppio di 20.000).
+
 ![Processo di conversione AD](/appunti_sta/immagini/conversione_ad.jpg)
 *Figura 3: Le fasi di campionamento, quantizzazione e codifica nella conversione da analogico a digitale.*
 
