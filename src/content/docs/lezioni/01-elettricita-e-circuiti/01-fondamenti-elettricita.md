@@ -101,3 +101,7 @@ Il flusso di elettroni può comportarsi in due modi differenti nel tempo:
 * **Elettrone libero**: Elettrone situato negli strati più esterni dell'atomo di un metallo, in grado di staccarsi e muoversi generando corrente .
 * **Generatore di tensione**: Dispositivo (come una pila) che mantiene una differenza di potenziale in un circuito, fornendo l'energia per muovere le cariche .
 * **Volt (V)**: Unità di misura della tensione (o differenza di potenziale). Un Volt equivale a un Joule per Coulomb .
+
+<button onclick="window.print()" style="padding: 10px 15px; background-color: #dbae1a; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">
+  🖨️ Stampa / Salva in PDF
+</button>

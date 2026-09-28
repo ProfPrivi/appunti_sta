@@ -82,3 +82,7 @@ In questa formula, **ρ (rho)** indica la **resistività** del materiale. La res
 * **Effetto Joule**: Il fenomeno per cui il passaggio di corrente elettrica attraverso un conduttore (che oppone resistenza) produce calore.
 * **Ohm (Ω)**: L'unità di misura della resistenza elettrica nel Sistema Internazionale.
 * **Resistività (ρ)**: Una proprietà specifica e intrinseca di un determinato materiale (es. rame, oro, alluminio) che quantifica la sua innata capacità di opporsi al flusso di corrente. Si misura in Ω·m.
+
+<button onclick="window.print()" style="padding: 10px 15px; background-color: #dbae1a; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">
+  🖨️ Stampa / Salva in PDF
+</button>

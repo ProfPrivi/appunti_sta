@@ -50,3 +50,23 @@ header.header,
     background-color: var(--sl-color-accent) !important;
     box-shadow: 0 0 10px var(--sl-color-accent) !important;
 }
+
+/* REGOLE APPLICATE SOLO DURANTE LA STAMPA / SALVATAGGIO PDF */
+@media print {
+  /* 1. Nasconde la barra superiore con logo e titolo del sito */
+  header, 
+  .header {
+    display: none !important;
+  }
+  
+  /* 2. Nasconde il bottone giallo di stampa sul documento finale */
+  button[onclick="window.print()"] {
+    display: none !important;
+  }
+  
+  /* 3. Assicura che il testo prenda tutto lo spazio orizzontale sul foglio */
+  .main-pane {
+    width: 100% !important;
+    max-width: none !important;
+  }
+}

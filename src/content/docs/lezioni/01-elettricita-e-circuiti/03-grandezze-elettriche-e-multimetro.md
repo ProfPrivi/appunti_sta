@@ -107,3 +107,7 @@ Poiché gli strumenti reali non sono ideali (l'amperometro possiede una piccola 
 * **Sensibilità**: La più piccola variazione di grandezza che lo strumento è tecnicamente in grado di rilevare.
 * **Tolleranza**: La variazione massima accettabile (espressa in percentuale) tra il valore reale di un componente e il suo valore nominale.
 * **Voltmetro**: Strumento di misura o modalità del multimetro utilizzata per misurare la differenza di potenziale (tensione). Si collega sempre in parallelo.
+
+<button onclick="window.print()" style="padding: 10px 15px; background-color: #dbae1a; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">
+  🖨️ Stampa / Salva in PDF
+</button>

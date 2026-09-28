@@ -107,3 +107,7 @@ Per analizzare questo tipo di circuito e calcolare le grandezze elettriche, è n
 * **Nodo**: Punto di congiunzione in un circuito elettrico in cui convergono tre o più rami.
 * **Ramo**: Qualsiasi tratto di circuito compreso tra due nodi; è attraversato dalla medesima corrente.
 * **Resistenza Equivalente (Req)**: Un valore di resistenza teorico che, se sostituito all'intero gruppo di resistori di un circuito, si comporterebbe esattamente allo stesso modo nei confronti del generatore (assorbendo la stessa corrente totale).
+
+<button onclick="window.print()" style="padding: 10px 15px; background-color: #dbae1a; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">
+  🖨️ Stampa / Salva in PDF
+</button>

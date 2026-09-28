@@ -81,3 +81,7 @@ La formula per calcolare il resistore di limitazione è:
 *   **LED (Light Emitting Diode):** Specifico tipo di diodo progettato per emettere luce quando attraversato da corrente.
 *   **Polarizzazione Diretta:** Collegamento elettrico che permette al diodo di condurre corrente.
 *   **Polarizzazione Inversa:** Collegamento elettrico che porta il diodo a bloccare il passaggio della corrente.
+
+<button onclick="window.print()" style="padding: 10px 15px; background-color: #dbae1a; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">
+  🖨️ Stampa / Salva in PDF
+</button>

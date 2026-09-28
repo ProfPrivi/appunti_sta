@@ -64,7 +64,7 @@ export default defineConfig({
 
 			sidebar: [
 				{
-					label: '📚 Corso di STA',
+					label: '📚 Teoria',
 					items: [
 						{
 							label: 'Introduzione al Corso',
@@ -75,11 +75,11 @@ export default defineConfig({
 							autogenerate: { directory: 'lezioni/01-elettricita-e-circuiti' },
 							collapsed: true,
 						},
-						{
+						/*{
 							label: '🔌 Circuiti Fisici',
 							autogenerate: { directory: 'lezioni/02-circuiti-fisici' },
 							collapsed: true,
-						},
+						},*/
 						{
 							label: '♾️ Arduino',
 							autogenerate: { directory: 'lezioni/03-arduino' },
@@ -112,15 +112,15 @@ export default defineConfig({
 						}
 					]
 				},
-				{
+				/*{
 					label: '📝 Esercizi',
 					autogenerate: { directory: 'esercizi' },
-					collapsed: false,
-				},
+					collapsed: true,
+				},*/
 				{
-					label: '🛠️ Progetti',
+					label: '🛠️ Attività LAB',
 					autogenerate: { directory: 'progetti' },
-					collapsed: false,
+					collapsed: true,
 				}
 			],
 		}),

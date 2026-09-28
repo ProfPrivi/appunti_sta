@@ -76,3 +76,7 @@ In un segnale digitale, invece, il sistema deve solo distinguere tra uno "0" e u
 * **DAC (Digital-to-Analog Converter)**: Dispositivo elettronico che esegue l'operazione inversa, trasformando i numeri digitali in un segnale analogico.
 * **Rumore**: Qualsiasi disturbo o interferenza elettrica indesiderata che si sovrappone al segnale originale, degradandone la qualità.
 * **Segnale Binario**: Tipo specifico di segnale digitale che utilizza solo due stati, convenzionalmente indicati con i valori logici 0 e 1.
+
+<button onclick="window.print()" style="padding: 10px 15px; background-color: #dbae1a; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">
+  🖨️ Stampa / Salva in PDF
+</button>
