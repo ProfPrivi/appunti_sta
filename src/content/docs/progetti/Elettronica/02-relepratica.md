@@ -87,3 +87,7 @@ Provare a collegare il circuito seguendo lo specifico schema elettrico riportato
 *   **Circuito di Controllo:** La sezione a bassa potenza del sistema (pulsante e bobina) incaricata di inviare il segnale di comando.
 *   **Pulsante Momentaneo:** Un interruttore che chiude il circuito (permette il passaggio di corrente) solo finché viene mantenuta la pressione fisica su di esso.
 *   **Rail:** Le lunghe strisce di fori orizzontali sulla breadboard (solitamente contrassegnate con righe rosse e blu/nere) utilizzate per distribuire agevolmente l'alimentazione positiva e negativa a tutti i componenti.
+
+<button onclick="window.print()" style="padding: 10px 15px; background-color: #dbae1a; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">
+  🖨️ Stampa / Salva in PDF
+</button>

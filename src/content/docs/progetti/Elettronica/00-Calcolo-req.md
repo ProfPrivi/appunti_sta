@@ -54,3 +54,7 @@ Cablate i componenti sulla vostra breadboard. Utilizzate un multimetro reale per
 *   **Ohmmetro:** Strumento (o modalità del multimetro) utilizzato per misurare la resistenza elettrica. Si collega in parallelo al componente o all'intero circuito scollegato dall'alimentazione.
 *   **Resistenza Equivalente (R<sub>eq</sub>):** Il valore di un singolo resistore ideale che, se sostituisse l'intera rete di resistenze, assorbirebbe la stessa quantità di corrente dal generatore.
 *   **Tolleranza:** La variazione massima (espressa in percentuale) accettabile tra il valore nominale di un componente fisico e il suo valore misurato effettivo.
+
+<button onclick="window.print()" style="padding: 10px 15px; background-color: #dbae1a; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">
+  🖨️ Stampa / Salva in PDF
+</button>

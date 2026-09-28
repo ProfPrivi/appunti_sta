@@ -92,3 +92,7 @@ L'attività si divide nelle seguenti fasi operative:
 *   **Corrente Diretta (I<sub>f</sub>):** La corrente operativa raccomandata che deve fluire attraverso il LED per garantirne un'illuminazione sicura e ottimale.
 *   **Resistenza di Limitazione (R<sub>lim</sub>):** Componente inserito in serie in un circuito per abbassare la tensione e mantenere la corrente entro limiti sicuri per i componenti sensibili (come i LED).
 *   **Tensione di Soglia (V<sub>f</sub>):** La caduta di tensione minima diretta necessaria affinché il materiale semiconduttore del LED inizi a condurre e produca luce.
+
+<button onclick="window.print()" style="padding: 10px 15px; background-color: #dbae1a; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">
+  🖨️ Stampa / Salva in PDF
+</button>
