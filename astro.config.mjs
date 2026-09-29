@@ -8,6 +8,9 @@ export default defineConfig({
 
 	integrations: [
 		starlight({
+			components: {
+    					ThemeSelect: './src/components/MenuToggle.astro',
+  		},
 			title: 'appunti_sta',
 			logo: {
 				src: './public/favicon.svg',

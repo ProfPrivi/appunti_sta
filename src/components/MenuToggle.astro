@@ -1,0 +1,52 @@
+---
+import Default from '@astrojs/starlight/components/ThemeSelect.astro';
+import type { Props } from '@astrojs/starlight/props';
+---
+<div style="display: flex; align-items: center; gap: 0.5rem;">
+  
+  <!-- Nuovi bottoni per lo Zoom del testo -->
+  <button 
+    onclick="cambiaZoom(-0.1)" 
+    style="padding: 5px 10px; background-color: transparent; color: inherit; border: 1px solid var(--sl-color-gray-4); border-radius: 6px; cursor: pointer; font-size: 0.9rem; font-weight: bold;"
+    title="Riduci testo"
+  >
+    A-
+  </button>
+  <button 
+    onclick="cambiaZoom(0.1)" 
+    style="padding: 5px 10px; background-color: transparent; color: inherit; border: 1px solid var(--sl-color-gray-4); border-radius: 6px; cursor: pointer; font-size: 0.9rem; font-weight: bold;"
+    title="Ingrandisci testo"
+  >
+    A+
+  </button>
+
+  <!-- Bottone Schermo Intero esistente -->
+  <button 
+    onclick="document.body.classList.toggle('schermo-intero')" 
+    style="padding: 5px 10px; background-color: transparent; color: inherit; border: 1px solid var(--sl-color-gray-4); border-radius: 6px; cursor: pointer; font-size: 0.9rem;"
+    title="Attiva/Disattiva Schermo Intero"
+  >
+    ↔️ Schermo Intero
+  </button>
+  
+  <Default {...Astro.props} />
+</div>
+
+<!-- Piccolo script per gestire l'ingrandimento -->
+<script is:inline>
+  let livelloZoom = 1;
+  
+  function cambiaZoom(modifica) {
+    livelloZoom += modifica;
+    
+    // Limiti di sicurezza: evita che il testo diventi illeggibile (troppo piccolo o gigante)
+    if (livelloZoom < 0.7) livelloZoom = 0.7;
+    if (livelloZoom > 2.5) livelloZoom = 2.5;
+    
+    // Cerca l'area centrale (il tag <main> della pagina) e applica lo zoom
+    const areaCentrale = document.querySelector('main');
+    if (areaCentrale) {
+      areaCentrale.style.zoom = livelloZoom;
+    }
+  }
+</script>

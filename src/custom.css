@@ -71,3 +71,40 @@ header.header,
   }
 }
 
+/* --- MODALITÀ SCHERMO INTERO --- */
+
+/* 1. Nasconde la barra di SINISTRA */
+body.schermo-intero .sidebar-pane {
+  display: none !important;
+}
+
+body.schermo-intero {
+  --sl-sidebar-width: 0px !important;
+  --sl-content-width: 100% !important; 
+}
+
+/* 💥 LA SOLUZIONE ALLO SPAZIO VUOTO 💥 */
+/* Rimuove il "cuscinetto" invisibile che bloccava il testo a sinistra */
+body.schermo-intero .main-frame {
+  padding-inline-start: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* 2. Nasconde la barra di DESTRA ("On this page") */
+body.schermo-intero .right-sidebar-panel,
+body.schermo-intero .right-sidebar-container,
+body.schermo-intero aside.right-sidebar {
+  display: none !important;
+}
+
+/* 3. Rompe la griglia centrale per allargare il testo */
+body.schermo-intero .main-pane {
+  grid-template-columns: 1fr !important;
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* 4. Permette al testo di espandersi al massimo della larghezza */
+body.schermo-intero .sl-container {
+  max-width: 95% !important; /* Mettiamo 95% invece di 100% per lasciare un millimetro di respiro ai bordi del monitor */
+}
