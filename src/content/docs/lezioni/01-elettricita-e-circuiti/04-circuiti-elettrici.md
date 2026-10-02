@@ -32,7 +32,7 @@ Per analizzare i circuiti più complessi, è utile definire alcuni concetti topo
 3. **Maglia**: Un qualsiasi percorso chiuso che si ottiene partendo da un nodo e ritornando allo stesso nodo attraversando rami diversi.
 
 ![Topologia dei circuiti: Nodi, Rami e Maglie](/appunti_sta/immagini/nodo.jpg)
-![Topologia dei circuiti: Nodi, Rami e Maglie](/appunti_sta/immagini/rami.jpg)
+![Topologia dei circuiti: Nodi, Rami e Maglie](/appunti_sta/immagini/ramo.jpg)
 ![Topologia dei circuiti: Nodi, Rami e Maglie](/appunti_sta/immagini/maglia.jpg)
 *Figura 3-4-5: Identificazione visiva di nodi, rami e maglie in un circuito elettrico.*
 
